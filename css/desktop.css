@@ -19,7 +19,7 @@
   }
 
   .steps__card:hover {
-    transform: scale(1.12);
+    transform: scale(1.05);
   }
 
   .restaurants__title {
@@ -40,7 +40,7 @@
   }
   .restaurants__card:hover {
     background-color: #f2eafb;
-    transform: scale(1.12);
+    transform: scale(1.05);
   }
 
   .container__card {
@@ -133,7 +133,7 @@
 }
 
 .menu__card:hover {
-  transform: scale(1.12);
+  transform: scale(1.05);
 }
 
 @keyframes slide-bottom {
