@@ -1,0 +1,62 @@
+@media screen and (max-width: 920px) {
+  /*-------------------------------index.html--------------------------------*/
+  .container_filtre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .steps__title {
+    text-align: center;
+  }
+
+  .steps__card {
+    width: 45%;
+    justify-content: space-between;
+  }
+
+  .steps__card__text {
+    font-size: 17px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  li a {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  li a:hover {
+    color: none;
+  }
+
+  /*-------------------------------end index.html--------------------------------*/
+
+  /*-------------------------------resto--------------------------------*/
+
+  .pa_main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .fa-heart {
+    font-size: 25px;
+  }
+  .menu__name {
+    text-align: center;
+  }
+
+  .menu__name ::after {
+    display: none;
+  }
+
+  /*-------------------------------end resto--------------------------------*/
+}

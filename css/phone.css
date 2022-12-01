@@ -1,0 +1,66 @@
+@media screen and (max-width: 667px) {
+  /*-------------------------------index.html--------------------------------*/
+  .steps__title {
+    margin-right: 45%;
+  }
+
+  .steps__card {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+
+  .steps__card__text {
+    font-size: 13px;
+  }
+  .restaurants__title {
+    margin-right: 100%;
+  }
+  .container_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurants__card:hover {
+    background-color: #f2eafb;
+  }
+
+  .container__card {
+    width: 95%;
+  }
+
+  .restaurants__card__icon {
+    font-size: 24px;
+  }
+
+  .footer__title {
+    padding-right: 100%;
+  }
+
+  ul {
+    display: contents;
+  }
+
+  li a {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  li a:hover {
+    color: none;
+  }
+  /*------------------------------- end index.html--------------------------------*/
+
+  .container__menu {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .menu__name {
+    text-align: left;
+  }
+
+  .menu__name ::after {
+    display: block;
+  }
+}
