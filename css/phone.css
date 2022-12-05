@@ -51,6 +51,7 @@
     color: none;
   }
   /*------------------------------- end index.html--------------------------------*/
+  /*------------------------------- resto--------------------------------*/
 
   .pa_main__container {
     display: flex;
@@ -68,4 +69,11 @@
   .menu__name ::after {
     display: block;
   }
+  .heart .fa-solid {
+    font-size: 25px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  /*------------------------------- end resto--------------------------------*/
 }

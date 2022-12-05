@@ -86,11 +86,26 @@
     display: block;
     margin-left: 3%;
   }
-
-  .fa-heart {
+  .fa-regular {
     font-size: 30px;
   }
+  .heart {
+    display: flex;
+    margin-right: 25%;
+  }
 
+  .heart .fa-solid {
+    font-size: 30px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+
+  .heart .fa-solid:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #99e2d0;
+  }
   /*-------------------------------end resto--------------------------------*/
 }
 
@@ -129,7 +144,7 @@
   cursor: pointer;
   transform: scale(1);
   transition-property: all;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   opacity: 0.5;
 }
 

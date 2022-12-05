@@ -58,5 +58,12 @@
     display: none;
   }
 
+  .heart .fa-solid {
+    font-size: 25px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+
   /*-------------------------------end resto--------------------------------*/
 }
