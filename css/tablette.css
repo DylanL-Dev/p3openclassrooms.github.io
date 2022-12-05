@@ -20,6 +20,20 @@
     font-size: 17px;
   }
 
+  .restaurants__card {
+    margin-top: 0px;
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+  .restaurants__card:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+  }
+
+  .barre{
+    display: none;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
@@ -57,6 +71,15 @@
   .menu__name ::after {
     display: none;
   }
+
+  .heart .fa-solid {
+    font-size: 25px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+
+
 
   /*-------------------------------end resto--------------------------------*/
 }
