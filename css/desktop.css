@@ -24,7 +24,6 @@
 
   .restaurants__title {
     text-align: center;
-    font-size: 28px;
   }
 
   .container_menu {
@@ -38,8 +37,10 @@
     transform: scale(1);
     transition-property: all;
     transition-duration: 400ms;
+    opacity: 0.33;
   }
   .restaurants__card:hover {
+    opacity: 1;
     background-color: #f2eafb;
     transform: scale(1.05);
   }
@@ -86,26 +87,11 @@
     display: block;
     margin-left: 3%;
   }
-  .fa-regular {
+
+  .fa-heart {
     font-size: 30px;
   }
-  .heart {
-    display: flex;
-    margin-right: 25%;
-  }
 
-  .heart .fa-solid {
-    font-size: 30px;
-    position: absolute;
-    opacity: 0;
-    transition-duration: 0.4s;
-  }
-
-  .heart .fa-solid:hover {
-    opacity: 1;
-    cursor: pointer;
-    color: #99e2d0;
-  }
   /*-------------------------------end resto--------------------------------*/
 }
 
@@ -142,15 +128,24 @@
   overflow: hidden;
   box-shadow: 2px 2px 10px #c4c3c0;
   cursor: pointer;
+  animation: slide-bottom 400ms;
   transform: scale(1);
   transition-property: all;
-  transition-duration: 0.3s;
-  opacity: 0.5;
+  transition-duration: 400ms;
 }
 
 .menu__card:hover {
   transform: scale(1.05);
-  opacity: 1;
+}
+
+@keyframes slide-bottom {
+  from {
+    transform: scaleY(0);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
 }
 
 .menu__card__text {
@@ -185,7 +180,6 @@
   justify-content: center;
   transition: all 0.5s ease-in-out;
 }
-
 .menu__card:hover :nth-child(3) {
   opacity: 1;
   margin-right: 0px;
