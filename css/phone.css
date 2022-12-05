@@ -52,6 +52,11 @@
   }
   /*------------------------------- end index.html--------------------------------*/
 
+  .pa_main__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+  }
   .container__menu {
     width: 100%;
     margin-left: 0%;
