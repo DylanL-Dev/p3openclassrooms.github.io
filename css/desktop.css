@@ -26,11 +26,11 @@
     text-align: center;
     font-size: 28px;
   }
-.barre{
-      border-bottom: 2px solid #99e2d0;
-      width: 50%;
-      margin-left: 25%;
-}
+  .barre {
+    border-bottom: 2px solid #99e2d0;
+    width: 50%;
+    margin-left: 25%;
+  }
   .container_menu {
     display: flex;
     flex-direction: row-reverse;
@@ -43,13 +43,8 @@
     transform: scale(1);
     transition-property: all;
     transition-duration: 400ms;
-    opacity: 0.65;
-    filter: grayscale(80%);
-
   }
   .restaurants__card:hover {
-     filter: grayscale(0%);
-    opacity: 1;
     background-color: #f2eafb;
     transform: scale(1.05);
   }
@@ -83,6 +78,10 @@
     color: #f2eafb;
   }
 
+    .heart .fa-solid:hover {
+    color: #ff79da;
+  }
+
   /*-------------------------------end index.html--------------------------------*/
 
   /*-------------------------------resto--------------------------------*/
@@ -114,7 +113,7 @@
   .heart .fa-solid:hover {
     opacity: 1;
     cursor: pointer;
-    color: #99e2d0;
+    color: #ff79da;
   }
   /*-------------------------------end resto--------------------------------*/
 }
@@ -155,7 +154,22 @@
   transform: scale(1);
   transition-property: all;
   transition-duration: 0.3s;
-  opacity: 0.5;
+  animation-name: aparition;
+  animation-duration: 1s;
+}
+
+@keyframes aparition {
+  0% {
+    filter: blur(5px);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .menu__card:hover {
