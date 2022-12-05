@@ -51,7 +51,13 @@
     color: none;
   }
   /*------------------------------- end index.html--------------------------------*/
+  /*------------------------------- resto--------------------------------*/
 
+  .pa_main__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+  }
   .container__menu {
     width: 100%;
     margin-left: 0%;
@@ -63,4 +69,11 @@
   .menu__name ::after {
     display: block;
   }
+  .heart .fa-solid {
+    font-size: 25px;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 0.4s;
+  }
+  /*------------------------------- end resto--------------------------------*/
 }
