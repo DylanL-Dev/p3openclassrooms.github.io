@@ -19,6 +19,7 @@
     <!--  header  -->
 
     <!-- Loader -->
+
     <div class="loader">
       <div class="load"></div>
     </div>
@@ -48,7 +49,7 @@
         <p class="exploration__text">
           Découvrez des restaurants d'exception, sélectionnés par nos soins.
         </p>
-        <a class="btn" href=".restaurants">Explorer nos restaurants</a>
+        <a class="btn" href="#restaurants__title">Explorer nos restaurants</a>
       </section>
 
       <!--  section steps  -->
@@ -60,7 +61,9 @@
           <div class="steps__card">
             <div class="steps__card__number">1</div>
             <i class="fa-solid fa-mobile-screen-button steps__card__icon"></i>
-            <p class="steps__card__text">Choisissez un restaurant</p>
+            <a href="#restaurants__title"
+              ><p class="steps__card__text">Choisissez un restaurant</p>
+            </a>
           </div>
 
           <div class="steps__card">
@@ -80,7 +83,7 @@
       <!--  section restaurants  -->
 
       <section class="restaurants">
-        <h2 class="restaurants__title">Restaurants</h2>
+        <h2 id="restaurants__title">Restaurants</h2>
         <div class="barre"></div>
         <div class="container_menu">
           <div class="container__card">

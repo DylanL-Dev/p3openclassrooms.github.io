@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 1920px) {
   /*-------------------------------index.html--------------------------------*/
   .container_filtre {
@@ -78,7 +80,7 @@
     color: #f2eafb;
   }
 
-    .heart .fa-solid:hover {
+  .heart .fa-solid:hover {
     color: #ff79da;
   }
 

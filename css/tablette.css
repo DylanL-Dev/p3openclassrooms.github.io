@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 920px) {
   /*-------------------------------index.html--------------------------------*/
   .container_filtre {
@@ -30,7 +32,7 @@
     filter: grayscale(0%);
   }
 
-  .barre{
+  .barre {
     display: none;
   }
 
@@ -78,8 +80,6 @@
     opacity: 0;
     transition-duration: 0.4s;
   }
-
-
 
   /*-------------------------------end resto--------------------------------*/
 }
