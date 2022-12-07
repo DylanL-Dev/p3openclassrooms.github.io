@@ -132,20 +132,22 @@
 .menu__name__title {
   font-size: 16px;
   font-weight: 300;
-  animation: fondu 3s;
-  -moz-animation: fondu 3s; /* Firefox */
-  -webkit-animation: fondu 3s; /* Safari et Chrome */
-  -o-animation: fondu 3s; /* Opera */
+  animation: menu__name__title 2s;
+  -moz-animation: menu__name__title 2s; /* Firefox */
+  -webkit-animation: menu__name__title 2s; /* Safari et Chrome */
+  -o-animation: menu__name__title 2s; /* Opera */
 }
-@keyframes fondu {
-  from {
+@keyframes menu__name__title {
+  0% {
     opacity: 0;
-    transform: translateY(-100px);
   }
 
-  to {
+  85% {
+    opacity: 0;
+  }
+
+  100% {
     opacity: 1;
-    transform: translateY(0px);
   }
 }
 
