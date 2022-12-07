@@ -132,7 +132,23 @@
 .menu__name__title {
   font-size: 16px;
   font-weight: 300;
+  animation: fondu 3s;
+  -moz-animation: fondu 3s; /* Firefox */
+  -webkit-animation: fondu 3s; /* Safari et Chrome */
+  -o-animation: fondu 3s; /* Opera */
 }
+@keyframes fondu {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .menu__name ::after {
   content: "";
   display: block;
@@ -156,27 +172,25 @@
   transform: scale(1);
   transition-property: all;
   transition-duration: 0.3s;
-  animation-name: aparition;
-  animation-duration: 1s;
+  animation: fondu 2s;
+  -moz-animation: fondu 2s; /* Firefox */
+  -webkit-animation: fondu 2s; /* Safari et Chrome */
+  -o-animation: fondu 2s; /* Opera */
 }
-
-@keyframes aparition {
-  0% {
-    filter: blur(5px);
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  100% {
-    filter: blur(0px);
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 .menu__card:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
   opacity: 1;
+}
+
+@keyframes fondu {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .menu__card__text {

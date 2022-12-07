@@ -71,6 +71,7 @@
   .menu__name ::after {
     display: block;
   }
+
   .heart .fa-solid {
     font-size: 25px;
     position: absolute;
@@ -78,5 +79,8 @@
     transition-duration: 0.4s;
   }
 
+  .pa_img {
+    max-height: 250px;
+  }
   /*------------------------------- end resto--------------------------------*/
 }
