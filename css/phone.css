@@ -23,6 +23,10 @@
   }
   /* End Titre de la section restaurant "Restaurant" */
 
+  .barre {
+    display: none;
+  }
+
   /* toute les carte restaurant */
 
   .container_menu {
