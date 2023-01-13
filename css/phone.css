@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 667px) {
   /*-------------------------------index.html--------------------------------*/
+  /* parti fontionnment */
   .steps__title {
     margin-right: 45%;
   }
@@ -15,9 +14,17 @@
   .steps__card__text {
     font-size: 13px;
   }
+
+  /* End parti fontionnment */
+
+  /* Titre de la section restaurant "Restaurant" */
   #restaurants__title {
     margin-right: 100%;
   }
+  /* End Titre de la section restaurant "Restaurant" */
+
+  /* toute les carte restaurant */
+
   .container_menu {
     display: flex;
     flex-direction: column;
@@ -36,6 +43,10 @@
     font-size: 24px;
   }
 
+  /* End toute les carte restaurant */
+
+  /* footer titre & liste de puce */
+
   .footer__title {
     padding-right: 100%;
   }
@@ -52,35 +63,58 @@
   li a:hover {
     color: #fff;
   }
+
+  /* End footer titre & liste de puce */
   /*------------------------------- end index.html--------------------------------*/
   /*------------------------------- resto--------------------------------*/
+
+  /* titre & coeur */
 
   .pa_main__container {
     display: flex;
     justify-content: space-between;
     margin-left: 0%;
   }
+  /* End titre & coeur */
+
+  /*enssemble des menues */
   .container__menu {
     width: 100%;
     margin-left: 0%;
   }
+  /* End enssemble des menues */
+
+  /* Entrée / Plats / Desserts */
+
   .menu__name {
     text-align: left;
   }
+
+  /* End  Entrée / Plat / Desserts */
+
+  /* barre Entrée Plats Desserts */
 
   .menu__name ::after {
     display: block;
   }
 
+  /* End barre Entrée / Plats / Desserts */
+
+  /* second coeur */
   .heart .fa-solid {
     font-size: 25px;
     position: absolute;
     opacity: 0;
     transition-duration: 0.4s;
   }
+  /* End second coeur */
 
+  /* image du restaurant */
   .pa_img {
     max-height: 250px;
   }
+
+  /* End image du restaurant */
+
   /*------------------------------- end resto--------------------------------*/
 }

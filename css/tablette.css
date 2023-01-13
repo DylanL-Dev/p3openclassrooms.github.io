@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 920px) {
   /*-------------------------------index.html--------------------------------*/
   .container_filtre {
@@ -8,6 +6,8 @@
     justify-content: center;
     align-items: center;
   }
+
+  /* parti fontionnment */
 
   .steps__title {
     text-align: center;
@@ -22,20 +22,17 @@
     font-size: 17px;
   }
 
-  .restaurants__card {
-    margin-top: 0px;
-    opacity: 1;
-    filter: grayscale(0%);
-  }
-  .restaurants__card:hover {
-    opacity: 1;
-    filter: grayscale(0%);
-  }
+  /* End parti fontionnment */
+
+  /* barre verte parti restaurant */
 
   .barre {
-    display: none;
+    display: block;
   }
 
+  /* End barre verte parti restaurant */
+
+  /* footer titre & liste de puce */
   ul {
     display: flex;
     flex-direction: row;
@@ -53,26 +50,40 @@
     color: #fff;
   }
 
+  /* End footer titre & liste de puce */
+
   /*-------------------------------end index.html--------------------------------*/
 
   /*-------------------------------resto--------------------------------*/
 
+  /* titre & coeur */
+
   .pa_main__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   .fa-heart {
     font-size: 25px;
   }
+
+  /* End titre & coeur */
+
+  /* Entrée / Plats / Desserts */
+
   .menu__name {
     text-align: center;
   }
 
+  /* barre Entrée Plats Desserts */
+
   .menu__name ::after {
     display: none;
   }
+  /* End barre Entrée / Plats / Desserts */
+
+  /* second coeur */
 
   .heart .fa-solid {
     font-size: 25px;
@@ -80,6 +91,8 @@
     opacity: 0;
     transition-duration: 0.4s;
   }
+
+  /* End second coeur */
 
   /*-------------------------------end resto--------------------------------*/
 }

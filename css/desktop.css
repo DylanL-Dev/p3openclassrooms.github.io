@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @media screen and (max-width: 1920px) {
   /*-------------------------------index.html--------------------------------*/
+
+  /* parti fontionnment */
   .container_filtre {
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
   .steps__title {
     text-align: center;
   }
-
+  /* transition sur les cards de la partie fonctionnement */
   .steps__card {
     transform: scale(1);
     transition-property: all;
@@ -21,18 +21,28 @@
   }
 
   .steps__card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* au survole du curseur trasition effet de zoom */
   }
 
+  /* End parti fontionnment */
+
+  /* Titre de la section restaurant "Restaurant" */
   #restaurants__title {
     text-align: center;
     font-size: 28px;
   }
+  /* End Titre de la section restaurant "Restaurant" */
+
+  /* barre verte partie restaurant */
   .barre {
     border-bottom: 2px solid #99e2d0;
     width: 50%;
     margin-left: 25%;
   }
+
+  /* End  barre verte partie restaurant */
+
+  /* toute les carte restaurant */
   .container_menu {
     display: flex;
     flex-direction: row-reverse;
@@ -58,6 +68,9 @@
   .restaurants__card__icon {
     font-size: 25px;
   }
+  /* End toute les carte restaurant */
+
+  /* footer titre & liste de puce */
 
   .footer__title {
     text-align: center;
@@ -80,8 +93,10 @@
     color: #f2eafb;
   }
 
+  /* End footer titre & liste de puce */
+
   .heart .fa-solid:hover {
-    color: #ff79da;
+    color: #ff79da; /*coeur au survole changement de couleur */
   }
 
   /*-------------------------------end index.html--------------------------------*/

@@ -37,166 +37,6 @@ img {
   object-fit: cover;
 }
 
-.localization {
-  height: 55px;
-  width: 100%;
-  background-color: #eaeaea;
-  box-shadow: inset 0px 2px 5px 0px #c4c3c0;
-  font-weight: 500;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 45px;
-}
-.localization__icon {
-  margin-right: 20px;
-  color: #444444;
-}
-.localization__text {
-  display: inline-block;
-  margin-right: 35px;
-  color: #444444;
-}
-
-input {
-  border: none;
-  background-color: #eaeaea;
-  outline: 0 none; /* Pour enlever la "bordure" jaune qu'ajoute Google Chrome au focus */
-}
-
-.header {
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  padding: 20px 0px 10px 0px;
-}
-
-.badge_new {
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 30px;
-  width: 80px;
-  background-color: #99e2d0;
-  border-radius: 2px;
-  color: #008766;
-  position: absolute;
-  right: 15px;
-  top: 15px;
-}
-
-.exploration {
-  text-align: center;
-  background-color: #f6f6f6;
-  padding: 40px 35px 55px 35px;
-}
-.exploration__title {
-  margin-bottom: 20px;
-  font-weight: bolder;
-}
-.exploration__text {
-  margin-bottom: 20px;
-  color: #444444;
-}
-
-.steps {
-  padding: 55px 20px 45px 20px;
-}
-.steps__title {
-  margin-bottom: 30px;
-}
-.steps__card {
-  height: 75px;
-  display: flex;
-  align-items: center;
-  background-color: #f6f6f6;
-  box-shadow: 2px 2px 10px #c4c3c0;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  padding: 0px 55px 0px 20px;
-  border-radius: 25px;
-}
-.steps__card__icon {
-  font-size: 20px;
-  margin-right: 30px;
-  color: #c4c3c0;
-}
-.steps__card__number {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: #9356dc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: -35px;
-  color: white;
-}
-.steps__card__text {
-  font-weight: 500;
-}
-.steps__card:hover {
-  background-color: #f2eafb;
-}
-.steps__card:hover :nth-child(2) {
-  color: #9356dc;
-}
-
-.restaurants {
-  padding: 50px 20px 45px 20px;
-  background-color: #f6f6f6;
-}
-#restaurants__title {
-  margin-bottom: 30px;
-}
-.restaurants__card {
-  position: relative;
-  height: 250px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px #c4c3c0;
-}
-.restaurants__card__img {
-  display: block;
-  max-height: 175px;
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-  object-fit: cover;
-}
-.restaurants__card__description {
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-}
-.restaurants__card__icon {
-  margin-top: 5px;
-}
-
-.footer {
-  padding: 25px;
-  background-color: #353535;
-}
-.footer__title {
-  font-family: "shrikhand", arial, sans-serif;
-  font-size: 24px;
-  color: #f6f6f6;
-  margin-bottom: 15px;
-}
-.footer__list {
-  margin-bottom: 10px;
-}
-.footer__text {
-  color: #f6f6f6;
-}
-.footer__icon {
-  width: 10px;
-  margin-right: 10px;
-}
 /* loader */
 .loader {
   width: 100%;
@@ -244,3 +84,197 @@ input {
   }
 }
 /* End loader */
+
+/* Champ de recherche & icon */
+
+.localization {
+  height: 55px;
+  width: 100%;
+  background-color: #eaeaea;
+  box-shadow: inset 0px 2px 5px 0px #c4c3c0;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 45px;
+}
+.localization__icon {
+  margin-right: 20px;
+  color: #444444;
+}
+.localization__text {
+  display: inline-block;
+  margin-right: 35px;
+  color: #444444;
+}
+
+input {
+  border: none;
+  background-color: #eaeaea;
+  outline: 0 none; /* Pour enlever la "bordure" jaune qu'ajoute Google Chrome au focus */
+}
+
+/* End Champ de recherche */
+
+/* Header logo */
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 0px 10px 0px;
+}
+
+/* End Header logo */
+
+/* titre & texte de la partie exploration */
+.exploration {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 40px 35px 55px 35px;
+}
+.exploration__title {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+.exploration__text {
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+/* End titre & texte de la partie exploration */
+
+/* icon & number partie fonctionnement */
+
+.steps {
+  padding: 55px 20px 45px 20px;
+}
+.steps__title {
+  margin-bottom: 30px;
+}
+.steps__card {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #f6f6f6;
+  box-shadow: 2px 2px 10px #c4c3c0;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 0px 55px 0px 20px;
+  border-radius: 25px;
+}
+
+.steps__card__icon {
+  font-size: 20px;
+  margin-right: 30px;
+  color: #c4c3c0;
+}
+
+/* icon card */
+
+.steps__card__number {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #9356dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -35px;
+  color: white;
+}
+
+/* End icon card */
+
+.steps__card__text {
+  font-weight: 500;
+}
+.steps__card:hover {
+  background-color: #f2eafb;
+}
+.steps__card:hover :nth-child(2) {
+  color: #9356dc;
+}
+
+/* end icon & number partie fonctionnement */
+
+/* background & titre, imgage et icon de la  parti restaurant */
+
+.restaurants {
+  padding: 50px 20px 45px 20px;
+  background-color: #f6f6f6;
+}
+
+#restaurants__title {
+  margin-bottom: 30px;
+}
+.restaurants__card {
+  position: relative;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #c4c3c0;
+}
+.restaurants__card__img {
+  display: block;
+  max-height: 175px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+.restaurants__card__description {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.restaurants__card__icon {
+  margin-top: 5px;
+}
+
+/* badge nouveau */
+.badge_new {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 80px;
+  background-color: #99e2d0;
+  border-radius: 2px;
+  color: #008766;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+/* End badge nouveau */
+
+/* End background & titre, imgage et icon de la  parti restaurant */
+
+/* background footer titre & liste texte, icon de la parti footer */
+
+.footer {
+  padding: 25px;
+  background-color: #353535;
+}
+.footer__title {
+  font-family: "shrikhand", arial, sans-serif;
+  font-size: 24px;
+  color: #f6f6f6;
+  margin-bottom: 15px;
+}
+.footer__list {
+  margin-bottom: 10px;
+}
+.footer__text {
+  color: #f6f6f6;
+}
+.footer__icon {
+  width: 10px;
+  margin-right: 10px;
+}
+
+/* End background footer titre & liste texte, icon de la parti footer */
